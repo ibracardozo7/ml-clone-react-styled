@@ -2,31 +2,31 @@ import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
 :root{
-   --fondo: #ededed;
-   --black: #000;
-   --white: #fff;
+    --fondo: #ededed;
+    --black: #000;
+    --white: #fff;
 
-   --text1: rgb(0, 0, 0, .8);
-   --text2: rgb(0, 0, 0, .45);
-   --text3: #666;
+    --text1: rgb(0, 0, 0, .8);
+    --text2: rgb(0, 0, 0, .45);
+    --text3: #666;
 
-   --green: #00a650;
-   --blue1: #1e6dff;
-   --blue2: #2968c8;
-   --blue3: #3483fa;
-   --yellow: #fff159;
+    --green: #00a650;
+    --blue1: #1e6dff;
+    --blue2: #2968c8;
+    --blue3: #3483fa;
+    --yellow: #fff159;
 
-   --border: #ddd;
+    --border: #ddd;
 
-   --panel: 0 1px 3px 0 rgba(0, 0, 0, .3);
+    --panel: 0 1px 3px 0 rgba(0, 0, 0, .3);
 
-   --reputacion1: #ffe7e6;
-   --reputacion2: #fff4e7;
-   --reputacion3: #fffde5;
-   --reputacion4: #f2fee0;
-   --reputacion5: #00a650;
+    --reputacion1: #ffe7e6;
+    --reputacion2: #fff4e7;
+    --reputacion3: #fffde5;
+    --reputacion4: #f2fee0;
+    --reputacion5: #00a650;
 
-   --family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif
+    --family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif
 }
 *{
     margin: 0;
@@ -35,10 +35,10 @@ export default createGlobalStyle`
 }
 h1, h2, h3, h4, h5, h6{
     color: var(--text1);
-    font-weigth: inherit;
+    font-weight: inherit;
 }
 html{
-    min-heigth: 100%;
+    min-height: 100%;
     background-color: var(--fondo);
 }
 *, button, input{

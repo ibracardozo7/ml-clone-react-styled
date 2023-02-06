@@ -1,14 +1,12 @@
 import GlobalStyles from "./styles/GlobalStyles";
-import Layout from "./components/Layout/Layout"
+import Layout from "./components/Layout/Layout";
 function App() {
-
-  return (
-    <>
-      <Layout />
-      <h1>Mercado libre clone</h1>
-      <GlobalStyles />
-    </>
-  )
+   return (
+      <>
+         <Layout />
+         <GlobalStyles />
+      </>
+   );
 }
 
-export default App
+export default App;
