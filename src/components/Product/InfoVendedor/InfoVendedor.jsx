@@ -14,7 +14,7 @@ const InfoVendedor = () => {
          <Card>
             <PlaticumIcon />
             <div>
-               <p>MercadoLíder Platinum</p>
+               <p className="platinum">MercadoLíder Platinum</p>
                <strong>¡Es uno de los mejores del sitio!</strong>
             </div>
          </Card>
@@ -24,7 +24,7 @@ const InfoVendedor = () => {
                <li />
                <li />
                <li />
-               <li />
+               <li className="active" />
             </Caja>
          </Reputacion>
          <Row>
