@@ -100,6 +100,7 @@ export const Row = styled.div`
    align-items: flex-start;
    >div {
       width: 33%;
+      /* height: 73px; */
       padding: 0 10px;
       display: flex;
       flex-direction: column;
@@ -114,7 +115,10 @@ export const Row = styled.div`
       }
       position: relative;
       & + div {
-         &::before {
+         padding-left: 10px;
+         margin-left: 10px;
+         border-left: solid 1px var(--border) ;
+         /* &::before {
             content: "";
             position: absolute;
             left: 0;
@@ -122,21 +126,23 @@ export const Row = styled.div`
             transform: translate(-50%);
             height: 36px;
             border-left: 1px solid var(--border);
-         }
+         } */
       }
    }
 `
-export const SupporIcon = styled(HiOutlineChatAlt2)``
-
-export const ClockIcon = styled(HiOutlineClock)``
-
+export const SupporIcon = styled(HiOutlineChatAlt2)`
+   ${iconsCss}
+`
+export const ClockIcon = styled(HiOutlineClock)`
+   ${iconsCss}
+`
 export const Link = styled.a`
    font-size: 14px;
    line-height: 18.9px;
    text-decoration: none;
    color: var(--blue3);
    margin-top: 24px;
-   :hover {
+   &:hover {
       color: var(--blue2);
    }
 `

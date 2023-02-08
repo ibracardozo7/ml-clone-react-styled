@@ -6,10 +6,8 @@ const Hero = () => {
       <Container>
          <Row>
             <a href="#" className="volver"> Volver al listado</a>
-            <a href="#"> Volver al listado</a>
-            <a href="#"> Volver al listado</a>
-            <a href="#"> Volver al listado</a>
-            <a href="#"> Volver al listado</a>
+            <a href="#">Celulares y Teléfonos</a>
+            <a href="#">Celulares y Smartphones</a>
          </Row>
          <Row>
             <a href="#"> Compartir</a>
