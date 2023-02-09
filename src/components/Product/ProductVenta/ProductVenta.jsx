@@ -1,4 +1,4 @@
-import { Container, Estado, Row, HeartIcon, Price, Card, CheckIcon, Color, Cantidad, ButtonCard, Comprar, Agregar, Beneficios, ShildeIcon } from "./styled"
+import { Container, Estado, Row, HeartIcon, Price, Card, CheckIcon, Color, Cantidad, ButtonCard, Comprar, Agregar, Beneficios, ShildeIcon, StoreIcon, CopaIcon } from "./styled"
 
 const ProductVenta = () => {
    return (
@@ -14,13 +14,14 @@ const ProductVenta = () => {
          <Card >
             <CheckIcon />
             <div>
-               <span>Llega gratis entre el martes y el viernes 17 de febrero</span>
+               <span className="title">Llega gratis <span className="detalle">entre el martes y el viernes 17 de febrero</span></span>
                <a href="#">Ver más formas de entrega</a>
             </div>
          </Card>
          <Card>
+            <StoreIcon />
             <div>
-               <span>Retirá gratis entre el 15 y 22 feb. en correo y otros puntos</span>
+               <span className="title">Retirá gratis <span className="detalle">entre el 15 y 22 feb. en correo y otros puntos</span></span>
                <a href="#">Ver en el mapa</a>
             </div>
          </Card>
@@ -40,7 +41,7 @@ const ProductVenta = () => {
                <p>Compra Protegida<span>, recibí el producto que esperabas o te devolvemos tu dinero.</span></p>
             </li>
             <li>
-               <ShildeIcon />
+               <CopaIcon />
                <p>Mercado Puntos. <span>Suma 50 punto.</span></p>
             </li>
          </Beneficios>

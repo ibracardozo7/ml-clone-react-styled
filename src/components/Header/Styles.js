@@ -4,15 +4,21 @@ export const Container = styled.header`
    width: 100vw;
    background-color: var(--yellow);
    height: 100px;
+   /* display: flex; */
+   /* flex-direction: column; */
 `
 
-export const Wrapper = styled.nav`
+export const Wrapper = styled.div`
    max-width: 1200px;
    height: 92px;
    display: flex;
-   justify-content: space-between;
-   padding: 8px;
+   flex-direction: column;
    margin: 0 auto;
+`
+export const NavBar = styled.nav`
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
    .logo {
       width: 134px;
       height: 34px;
@@ -32,4 +38,39 @@ export const Wrapper = styled.nav`
       width: 340px;
       height: 39px;
    }
-` 
+`
+export const Menu = styled.div`
+   display: flex;
+   justify-content: space-between;
+   >div {
+      display: flex;
+
+      >a {
+         /* margin-top: 16px; */
+         text-decoration: none;
+         padding: 0 10px;
+         font-size: 14px;
+      }
+   }
+`
+export const Links = styled.div`
+   padding-top: 12px;
+   >div {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 18px;
+      padding-left: 186px;
+      >a {
+         font-size: 14px;
+         color: var(--text2);
+         text-decoration: none;
+         padding-right: 18px;
+      }
+   }
+   >a {
+      font-size: 14px;
+      color: var(--text2);
+      text-decoration: none;
+      padding-right: 18px;
+   }
+`
